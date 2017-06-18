@@ -10,10 +10,12 @@
 		CF9591751EF5C9270024877E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9591741EF5C9270024877E /* AppDelegate.swift */; };
 		CF9591771EF5C9270024877E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9591761EF5C9270024877E /* ViewController.swift */; };
 		CF95917A1EF5C9270024877E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9591781EF5C9270024877E /* Main.storyboard */; };
-		CF95917C1EF5C9270024877E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF95917B1EF5C9270024877E /* Assets.xcassets */; };
 		CF95917F1EF5C9270024877E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF95917D1EF5C9270024877E /* LaunchScreen.storyboard */; };
 		CF95918A1EF5C9270024877E /* gestureRecognizersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9591891EF5C9270024877E /* gestureRecognizersTests.swift */; };
 		CF9591951EF5C9280024877E /* gestureRecognizersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9591941EF5C9280024877E /* gestureRecognizersUITests.swift */; };
+		CF9591A51EF719270024877E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9591A41EF719270024877E /* Assets.xcassets */; };
+		CF9591A61EF719270024877E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9591A41EF719270024877E /* Assets.xcassets */; };
+		CF9591A71EF719270024877E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9591A41EF719270024877E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		CF9591741EF5C9270024877E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF9591761EF5C9270024877E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF9591791EF5C9270024877E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CF95917B1EF5C9270024877E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF95917E1EF5C9270024877E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF9591801EF5C9270024877E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF9591851EF5C9270024877E /* gestureRecognizersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gestureRecognizersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +48,7 @@
 		CF9591901EF5C9270024877E /* gestureRecognizersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gestureRecognizersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9591941EF5C9280024877E /* gestureRecognizersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gestureRecognizersUITests.swift; sourceTree = "<group>"; };
 		CF9591961EF5C9280024877E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9591A41EF719270024877E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +101,8 @@
 			children = (
 				CF9591741EF5C9270024877E /* AppDelegate.swift */,
 				CF9591761EF5C9270024877E /* ViewController.swift */,
+				CF9591A41EF719270024877E /* Assets.xcassets */,
 				CF9591781EF5C9270024877E /* Main.storyboard */,
-				CF95917B1EF5C9270024877E /* Assets.xcassets */,
 				CF95917D1EF5C9270024877E /* LaunchScreen.storyboard */,
 				CF9591801EF5C9270024877E /* Info.plist */,
 			);
@@ -236,7 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF95917F1EF5C9270024877E /* LaunchScreen.storyboard in Resources */,
-				CF95917C1EF5C9270024877E /* Assets.xcassets in Resources */,
+				CF9591A51EF719270024877E /* Assets.xcassets in Resources */,
 				CF95917A1EF5C9270024877E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF9591A61EF719270024877E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF9591A71EF719270024877E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
