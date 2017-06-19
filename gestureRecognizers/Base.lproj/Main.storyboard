@@ -154,10 +154,10 @@
             </objects>
             <point key="canvasLocation" x="1039" y="-1130"/>
         </scene>
-        <!--View Controller-->
+        <!--RotateVC-->
         <scene sceneID="p9H-E8-1TV">
             <objects>
-                <viewController id="och-VQ-KbU" sceneMemberID="viewController">
+                <viewController id="och-VQ-KbU" customClass="RotateVC" customModule="gestureRecognizers" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oiL-fI-4Kf"/>
                         <viewControllerLayoutGuide type="bottom" id="BX8-kx-KTt"/>
@@ -165,9 +165,25 @@
                     <view key="view" contentMode="scaleToFill" id="V0w-ld-RgN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="as" translatesAutoresizingMaskIntoConstraints="NO" id="B3X-gv-AbM">
+                                <rect key="frame" x="85" y="188" width="243" height="359"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="5jq-J8-SUF"/>
+                    <navigationItem key="navigationItem" id="5jq-J8-SUF">
+                        <barButtonItem key="rightBarButtonItem" title="Reset" id="WBV-cx-RAp">
+                            <connections>
+                                <action selector="btn_reset:" destination="och-VQ-KbU" id="ewC-tf-8xM"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="btn_reset" destination="WBV-cx-RAp" id="8oj-ES-mnV"/>
+                        <outlet property="imageView" destination="B3X-gv-AbM" id="WVl-ON-B2R"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Sf-zu-A8v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
