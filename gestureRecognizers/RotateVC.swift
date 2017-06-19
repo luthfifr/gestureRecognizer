@@ -13,7 +13,7 @@ class RotateVC: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var btn_reset: UIBarButtonItem!
     
-    let _90degree: CGFloat = 3.14159
+    let _180degree: CGFloat = 3.14159
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +33,7 @@ class RotateVC: UIViewController {
 
     @IBAction func btn_reset(_ sender: UIBarButtonItem) {
         let currAngle = atan2f(Float(imageView.transform.b), Float(imageView.transform.a))
-        imageView.transform = imageView.transform.rotated(by: _90degree-CGFloat(currAngle))
+        imageView.transform = imageView.transform.rotated(by: _180degree-CGFloat(currAngle))
     }
     
     /*
