@@ -18,6 +18,12 @@
 		CF9591A91EF72D0F0024877E /* TapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9591A81EF72D0F0024877E /* TapVC.swift */; };
 		CF9591AA1EF72D0F0024877E /* TapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9591A81EF72D0F0024877E /* TapVC.swift */; };
 		CF9591AB1EF72D0F0024877E /* TapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9591A81EF72D0F0024877E /* TapVC.swift */; };
+		CF9591AD1EF7BCD60024877E /* PinchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9591AC1EF7BCD50024877E /* PinchVC.swift */; };
+		CF9591AE1EF7BCD60024877E /* PinchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9591AC1EF7BCD50024877E /* PinchVC.swift */; };
+		CF9591AF1EF7BCD60024877E /* PinchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9591AC1EF7BCD50024877E /* PinchVC.swift */; };
+		CF9591B11EF7C2C40024877E /* SwipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9591B01EF7C2C40024877E /* SwipeVC.swift */; };
+		CF9591B21EF7C2C40024877E /* SwipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9591B01EF7C2C40024877E /* SwipeVC.swift */; };
+		CF9591B31EF7C2C40024877E /* SwipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9591B01EF7C2C40024877E /* SwipeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,8 @@
 		CF9591961EF5C9280024877E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF9591A41EF719270024877E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF9591A81EF72D0F0024877E /* TapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapVC.swift; sourceTree = "<group>"; };
+		CF9591AC1EF7BCD50024877E /* PinchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinchVC.swift; sourceTree = "<group>"; };
+		CF9591B01EF7C2C40024877E /* SwipeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,8 @@
 			children = (
 				CF9591741EF5C9270024877E /* AppDelegate.swift */,
 				CF9591A81EF72D0F0024877E /* TapVC.swift */,
+				CF9591AC1EF7BCD50024877E /* PinchVC.swift */,
+				CF9591B01EF7C2C40024877E /* SwipeVC.swift */,
 				CF9591A41EF719270024877E /* Assets.xcassets */,
 				CF9591781EF5C9270024877E /* Main.storyboard */,
 				CF95917D1EF5C9270024877E /* LaunchScreen.storyboard */,
@@ -268,6 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF9591AD1EF7BCD60024877E /* PinchVC.swift in Sources */,
+				CF9591B11EF7C2C40024877E /* SwipeVC.swift in Sources */,
 				CF9591A91EF72D0F0024877E /* TapVC.swift in Sources */,
 				CF9591751EF5C9270024877E /* AppDelegate.swift in Sources */,
 			);
@@ -277,6 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF9591AE1EF7BCD60024877E /* PinchVC.swift in Sources */,
+				CF9591B21EF7C2C40024877E /* SwipeVC.swift in Sources */,
 				CF9591AA1EF72D0F0024877E /* TapVC.swift in Sources */,
 				CF95918A1EF5C9270024877E /* gestureRecognizersTests.swift in Sources */,
 			);
@@ -286,6 +300,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF9591AF1EF7BCD60024877E /* PinchVC.swift in Sources */,
+				CF9591B31EF7C2C40024877E /* SwipeVC.swift in Sources */,
 				CF9591AB1EF72D0F0024877E /* TapVC.swift in Sources */,
 				CF9591951EF5C9280024877E /* gestureRecognizersUITests.swift in Sources */,
 			);
