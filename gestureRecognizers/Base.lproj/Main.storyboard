@@ -200,9 +200,35 @@
                     <view key="view" contentMode="scaleToFill" id="oRC-QK-YO4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cVs-yD-hmy">
+                                <rect key="frame" x="65" y="168" width="283" height="399"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="as" translatesAutoresizingMaskIntoConstraints="NO" id="18Y-9G-mjl">
+                                        <rect key="frame" x="20" y="20" width="243" height="359"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card2" translatesAutoresizingMaskIntoConstraints="NO" id="YOH-SF-IQM">
+                                        <rect key="frame" x="20" y="20" width="243" height="359"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card3" translatesAutoresizingMaskIntoConstraints="NO" id="Ldy-1Y-87g">
+                                        <rect key="frame" x="20" y="20" width="243" height="359"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="okc-F1-uJx"/>
+                    <connections>
+                        <outlet property="Card1" destination="18Y-9G-mjl" id="bxx-me-vYQ"/>
+                        <outlet property="Card2" destination="YOH-SF-IQM" id="kxu-T5-w5q"/>
+                        <outlet property="Card3" destination="Ldy-1Y-87g" id="j1k-ie-Ww1"/>
+                        <outlet property="cardContainerView" destination="cVs-yD-hmy" id="TEy-9T-ZfO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YTW-or-rXM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -383,6 +409,8 @@
     <resources>
         <image name="as" width="106" height="150"/>
         <image name="backcard" width="106" height="150"/>
+        <image name="card2" width="105" height="149"/>
+        <image name="card3" width="106" height="149"/>
         <image name="icons-LP" width="33" height="33"/>
         <image name="icons-SEP" width="33" height="33"/>
         <image name="icons-pan" width="33" height="33"/>
