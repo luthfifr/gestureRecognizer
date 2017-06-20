@@ -234,10 +234,10 @@
             </objects>
             <point key="canvasLocation" x="4794.3999999999996" y="1382.1589205397302"/>
         </scene>
-        <!--View Controller-->
+        <!--PanVC-->
         <scene sceneID="YUw-dL-jwK">
             <objects>
-                <viewController id="E6m-js-A0g" sceneMemberID="viewController">
+                <viewController id="E6m-js-A0g" customClass="PanVC" customModule="gestureRecognizers" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2Ei-hC-AGA"/>
                         <viewControllerLayoutGuide type="bottom" id="cGQ-IN-6vS"/>
@@ -245,9 +245,19 @@
                     <view key="view" contentMode="scaleToFill" id="RF4-jc-SiR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hMC-bB-Q2O">
+                                <rect key="frame" x="132" y="293" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.4549019608" green="0.83137254900000002" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="2mz-vG-Sy8"/>
+                    <connections>
+                        <outlet property="objectView" destination="hMC-bB-Q2O" id="caK-2w-Hyl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y7B-N3-NOS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -27,6 +27,9 @@
 		CF9591B51EF874510024877E /* RotateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9591B41EF874510024877E /* RotateVC.swift */; };
 		CF9591B61EF874510024877E /* RotateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9591B41EF874510024877E /* RotateVC.swift */; };
 		CF9591B71EF874510024877E /* RotateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9591B41EF874510024877E /* RotateVC.swift */; };
+		CF9591B91EF925C20024877E /* PanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9591B81EF925C20024877E /* PanVC.swift */; };
+		CF9591BA1EF925C20024877E /* PanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9591B81EF925C20024877E /* PanVC.swift */; };
+		CF9591BB1EF925C20024877E /* PanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9591B81EF925C20024877E /* PanVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,7 @@
 		CF9591AC1EF7BCD50024877E /* PinchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinchVC.swift; sourceTree = "<group>"; };
 		CF9591B01EF7C2C40024877E /* SwipeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeVC.swift; sourceTree = "<group>"; };
 		CF9591B41EF874510024877E /* RotateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotateVC.swift; sourceTree = "<group>"; };
+		CF9591B81EF925C20024877E /* PanVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 				CF9591AC1EF7BCD50024877E /* PinchVC.swift */,
 				CF9591B41EF874510024877E /* RotateVC.swift */,
 				CF9591B01EF7C2C40024877E /* SwipeVC.swift */,
+				CF9591B81EF925C20024877E /* PanVC.swift */,
 				CF9591A41EF719270024877E /* Assets.xcassets */,
 				CF9591781EF5C9270024877E /* Main.storyboard */,
 				CF95917D1EF5C9270024877E /* LaunchScreen.storyboard */,
@@ -285,6 +290,7 @@
 			files = (
 				CF9591AD1EF7BCD60024877E /* PinchVC.swift in Sources */,
 				CF9591B11EF7C2C40024877E /* SwipeVC.swift in Sources */,
+				CF9591B91EF925C20024877E /* PanVC.swift in Sources */,
 				CF9591B51EF874510024877E /* RotateVC.swift in Sources */,
 				CF9591A91EF72D0F0024877E /* TapVC.swift in Sources */,
 				CF9591751EF5C9270024877E /* AppDelegate.swift in Sources */,
@@ -297,6 +303,7 @@
 			files = (
 				CF9591AE1EF7BCD60024877E /* PinchVC.swift in Sources */,
 				CF9591B21EF7C2C40024877E /* SwipeVC.swift in Sources */,
+				CF9591BA1EF925C20024877E /* PanVC.swift in Sources */,
 				CF9591B61EF874510024877E /* RotateVC.swift in Sources */,
 				CF9591AA1EF72D0F0024877E /* TapVC.swift in Sources */,
 				CF95918A1EF5C9270024877E /* gestureRecognizersTests.swift in Sources */,
@@ -309,6 +316,7 @@
 			files = (
 				CF9591AF1EF7BCD60024877E /* PinchVC.swift in Sources */,
 				CF9591B31EF7C2C40024877E /* SwipeVC.swift in Sources */,
+				CF9591BB1EF925C20024877E /* PanVC.swift in Sources */,
 				CF9591B71EF874510024877E /* RotateVC.swift in Sources */,
 				CF9591AB1EF72D0F0024877E /* TapVC.swift in Sources */,
 				CF9591951EF5C9280024877E /* gestureRecognizersUITests.swift in Sources */,
