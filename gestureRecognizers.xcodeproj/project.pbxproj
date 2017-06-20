@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF8CFA121EF9B5D1003435AC /* LongPressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CFA111EF9B5D1003435AC /* LongPressVC.swift */; };
+		CF8CFA131EF9B5D1003435AC /* LongPressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CFA111EF9B5D1003435AC /* LongPressVC.swift */; };
+		CF8CFA141EF9B5D1003435AC /* LongPressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CFA111EF9B5D1003435AC /* LongPressVC.swift */; };
+		CF8CFA161EF9C918003435AC /* MultiGesturesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CFA151EF9C918003435AC /* MultiGesturesVC.swift */; };
+		CF8CFA171EF9C918003435AC /* MultiGesturesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CFA151EF9C918003435AC /* MultiGesturesVC.swift */; };
+		CF8CFA181EF9C918003435AC /* MultiGesturesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CFA151EF9C918003435AC /* MultiGesturesVC.swift */; };
 		CF9591751EF5C9270024877E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9591741EF5C9270024877E /* AppDelegate.swift */; };
 		CF95917A1EF5C9270024877E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9591781EF5C9270024877E /* Main.storyboard */; };
 		CF95917F1EF5C9270024877E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF95917D1EF5C9270024877E /* LaunchScreen.storyboard */; };
@@ -50,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF8CFA111EF9B5D1003435AC /* LongPressVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongPressVC.swift; sourceTree = "<group>"; };
+		CF8CFA151EF9C918003435AC /* MultiGesturesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiGesturesVC.swift; sourceTree = "<group>"; };
 		CF9591711EF5C9270024877E /* gestureRecognizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gestureRecognizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9591741EF5C9270024877E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF9591791EF5C9270024877E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -123,6 +131,8 @@
 				CF9591B41EF874510024877E /* RotateVC.swift */,
 				CF9591B01EF7C2C40024877E /* SwipeVC.swift */,
 				CF9591B81EF925C20024877E /* PanVC.swift */,
+				CF8CFA111EF9B5D1003435AC /* LongPressVC.swift */,
+				CF8CFA151EF9C918003435AC /* MultiGesturesVC.swift */,
 				CF9591A41EF719270024877E /* Assets.xcassets */,
 				CF9591781EF5C9270024877E /* Main.storyboard */,
 				CF95917D1EF5C9270024877E /* LaunchScreen.storyboard */,
@@ -294,6 +304,8 @@
 				CF9591B51EF874510024877E /* RotateVC.swift in Sources */,
 				CF9591A91EF72D0F0024877E /* TapVC.swift in Sources */,
 				CF9591751EF5C9270024877E /* AppDelegate.swift in Sources */,
+				CF8CFA161EF9C918003435AC /* MultiGesturesVC.swift in Sources */,
+				CF8CFA121EF9B5D1003435AC /* LongPressVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +319,8 @@
 				CF9591B61EF874510024877E /* RotateVC.swift in Sources */,
 				CF9591AA1EF72D0F0024877E /* TapVC.swift in Sources */,
 				CF95918A1EF5C9270024877E /* gestureRecognizersTests.swift in Sources */,
+				CF8CFA171EF9C918003435AC /* MultiGesturesVC.swift in Sources */,
+				CF8CFA131EF9B5D1003435AC /* LongPressVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +334,8 @@
 				CF9591B71EF874510024877E /* RotateVC.swift in Sources */,
 				CF9591AB1EF72D0F0024877E /* TapVC.swift in Sources */,
 				CF9591951EF5C9280024877E /* gestureRecognizersUITests.swift in Sources */,
+				CF8CFA181EF9C918003435AC /* MultiGesturesVC.swift in Sources */,
+				CF8CFA141EF9B5D1003435AC /* LongPressVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

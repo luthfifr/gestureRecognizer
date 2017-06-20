@@ -263,10 +263,10 @@
             </objects>
             <point key="canvasLocation" x="1911.2" y="1381.2593703148427"/>
         </scene>
-        <!--View Controller-->
+        <!--Long PressVC-->
         <scene sceneID="f1V-gD-99D">
             <objects>
-                <viewController id="3Rm-uX-y4l" sceneMemberID="viewController">
+                <viewController id="3Rm-uX-y4l" customClass="LongPressVC" customModule="gestureRecognizers" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3bO-3h-JJP"/>
                         <viewControllerLayoutGuide type="bottom" id="7q1-2o-MhD"/>
@@ -282,10 +282,10 @@
             </objects>
             <point key="canvasLocation" x="-1120.8" y="1380.3598200899551"/>
         </scene>
-        <!--View Controller-->
+        <!--Multi GesturesVC-->
         <scene sceneID="hsX-qQ-ZBR">
             <objects>
-                <viewController id="b88-TC-sBY" sceneMemberID="viewController">
+                <viewController id="b88-TC-sBY" customClass="MultiGesturesVC" customModule="gestureRecognizers" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="b8p-Cr-iNU"/>
                         <viewControllerLayoutGuide type="bottom" id="PyE-Rk-D3I"/>
@@ -293,9 +293,25 @@
                     <view key="view" contentMode="scaleToFill" id="axS-8z-aWe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="as" translatesAutoresizingMaskIntoConstraints="NO" id="tfi-5l-s9D">
+                                <rect key="frame" x="86" y="189" width="243" height="359"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4549019608" green="0.83137254900000002" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="gCP-IH-fQA"/>
+                    <navigationItem key="navigationItem" id="gCP-IH-fQA">
+                        <barButtonItem key="rightBarButtonItem" title="Reset" id="Hhj-MT-NSm">
+                            <connections>
+                                <action selector="btn_reset:" destination="b88-TC-sBY" id="88F-mv-7Jv"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="btn_reset" destination="Hhj-MT-NSm" id="hFN-Vf-RCu"/>
+                        <outlet property="imageView" destination="tfi-5l-s9D" id="M0g-2h-X9l"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4iZ-4d-kox" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -377,11 +393,11 @@
             </objects>
             <point key="canvasLocation" x="972" y="1381.2593703148427"/>
         </scene>
-        <!--Screen Edge Pan-->
+        <!--Long Press-->
         <scene sceneID="jM1-Sh-Zl3">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aAB-QA-nMq" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Screen Edge Pan" image="icons-SEP" id="vaE-gd-UKU"/>
+                    <tabBarItem key="tabBarItem" title="Long Press" image="icons-LP" id="vaE-gd-UKU"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="j68-ci-QJ0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -396,11 +412,11 @@
             </objects>
             <point key="canvasLocation" x="-2060" y="1380.3598200899551"/>
         </scene>
-        <!--Long Press-->
+        <!--Multi Gestures-->
         <scene sceneID="47U-DS-c4K">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="09H-EN-irg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Long Press" image="icons-LP" id="2db-l3-Kl3"/>
+                    <tabBarItem key="tabBarItem" title="Multi Gestures" image="icons-multi" id="2db-l3-Kl3"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zD1-xv-xBw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -422,7 +438,7 @@
         <image name="card2" width="105" height="149"/>
         <image name="card3" width="106" height="149"/>
         <image name="icons-LP" width="33" height="33"/>
-        <image name="icons-SEP" width="33" height="33"/>
+        <image name="icons-multi" width="32" height="33"/>
         <image name="icons-pan" width="33" height="33"/>
         <image name="icons-pinch" width="33" height="33"/>
         <image name="icons-rotate" width="33" height="33"/>
