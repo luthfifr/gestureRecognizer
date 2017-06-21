@@ -1,4 +1,7 @@
 # gestureRecognizer
+
+[![Platform](https://img.shields.io/cocoapods/p/DFContinuousForceTouchGestureRecognizer.svg?style=flat)]()
+
 This repo is an example of how to use UIGestureRecognizer.
 
 ## Output Preview
