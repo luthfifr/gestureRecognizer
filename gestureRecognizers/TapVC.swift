@@ -42,17 +42,17 @@ class TapVC: UIViewController {
         destinationView = nil
     }
     
-    func flipCard(_ sender: UITapGestureRecognizer){
+    @objc func flipCard(_ sender: UITapGestureRecognizer){
         tapcounter += 1
         label_tapCount.text = String(describing: tapcounter)
         label_tapCount.sizeToFit()
         
-        var transition = UIViewAnimationOptions.transitionFlipFromLeft
+        var transition = UIView.AnimationOptions.transitionFlipFromLeft
         
         while originView == nil || destinationView == nil {
             originView = backcardFlag ? backImageView : frontImageView
             destinationView = backcardFlag ? frontImageView : backImageView
-            transition = backcardFlag ? UIViewAnimationOptions.transitionFlipFromLeft : UIViewAnimationOptions.transitionFlipFromRight
+            transition = backcardFlag ? UIView.AnimationOptions.transitionFlipFromLeft : UIView.AnimationOptions.transitionFlipFromRight
         }
         
         UIView.transition(from: originView!, to: destinationView!, duration: 1.0, options: [transition, .showHideTransitionViews], completion: { finised in

@@ -27,7 +27,7 @@ class RotateVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func rotateCard(_ sender: UIRotationGestureRecognizer) {
+    @objc func rotateCard(_ sender: UIRotationGestureRecognizer) {
         imageView.transform = imageView.transform.rotated(by: sender.rotation)
     }
 

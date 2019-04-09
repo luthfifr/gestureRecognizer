@@ -60,7 +60,7 @@ class MultiGesturesVC: UIViewController, UIGestureRecognizerDelegate {
         }
     }
     
-    func pinchCard(_ sender: UIPinchGestureRecognizer) {
+    @objc func pinchCard(_ sender: UIPinchGestureRecognizer) {
         var scale = sender.scale*0.05
         let velocity = sender.velocity
         var currImageWidth = imageView.frame.size.width
@@ -98,7 +98,7 @@ class MultiGesturesVC: UIViewController, UIGestureRecognizerDelegate {
         
     }
     
-    func rotateCard(_ sender: UIRotationGestureRecognizer) {
+    @objc func rotateCard(_ sender: UIRotationGestureRecognizer) {
         imageView.transform = imageView.transform.rotated(by: sender.rotation)
     }
     

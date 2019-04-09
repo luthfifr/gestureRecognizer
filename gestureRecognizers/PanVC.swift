@@ -26,7 +26,7 @@ class PanVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func pannedView(_ sender: UIPanGestureRecognizer) {
+    @objc func pannedView(_ sender: UIPanGestureRecognizer) {
         let newpoint = sender.location(in: self.view)//sender.translation(in: self.view)
         let newFrame = CGRect(x: newpoint.x, y: newpoint.y, width: objectView.frame.size.width, height: objectView.frame.size.height)
         objectView.frame = newFrame

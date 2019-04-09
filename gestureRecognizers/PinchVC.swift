@@ -44,7 +44,7 @@ class PinchVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func pinchCard(_ sender: UIPinchGestureRecognizer) {
+    @objc func pinchCard(_ sender: UIPinchGestureRecognizer) {
         var scale = sender.scale*0.05
         let velocity = sender.velocity
         var currImageWidth = imageView.frame.size.width

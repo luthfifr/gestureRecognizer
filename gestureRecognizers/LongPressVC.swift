@@ -23,7 +23,7 @@ class LongPressVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func longPressAction(_ sender: UILongPressGestureRecognizer){
+    @objc func longPressAction(_ sender: UILongPressGestureRecognizer){
         if !view.subviews.isEmpty {
             view.subviews.forEach({$0.removeFromSuperview()})
         }

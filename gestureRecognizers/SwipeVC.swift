@@ -46,9 +46,9 @@ class SwipeVC: UIViewController {
         destinationView = nil
     }
     
-    func swipeCard(_ sender: UISwipeGestureRecognizer) {
+    @objc func swipeCard(_ sender: UISwipeGestureRecognizer) {
         print("swipe gesture detected")
-        let transition = UIViewAnimationOptions.curveEaseOut
+        let transition = UIView.AnimationOptions.curveEaseOut
         var indexOfDestinationView: Int?
         let indexOfOriginView = cardContainerView.subviews.index(of: originView!)
         
